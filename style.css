@@ -1,0 +1,431 @@
+/* import */
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+/*==============================================
+ Loading
+ http://codepen.io/hangsbreaker/pen/otGsg
+ ===============================================*/
+.loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  background: white;
+}
+.windmill {
+  width: 140px;
+  height: 260px;
+  position: relative;
+  margin: 0 auto;
+  vertical-align: middle;
+  top: 40%;
+}
+.stick {
+  width: 6px;
+  height: 200px;
+  position: absolute;
+  background: #a86;
+  top: 50px;
+  left: 47px;
+}
+.stick:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  top: 195px;
+  left: -22px;
+  background: #ddd;
+  border-radius: 50%;
+  z-index: -1;
+}
+.wind {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: rotates 2s infinite linear;
+  -moz-animation: rotates 2s infinite linear;
+  -webkit-animation: rotates 2s infinite linear;
+  -o-animation: rotates 2s infinite linear;
+}
+.wind:after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 10px;
+  height: 10px;
+  background: #eee;
+  border-radius: 50%;
+}
+.wind1,
+.wind2,
+.wind3,
+.wind4 {
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  margin: 13px 0 0 -41px;
+  background: #cef;
+  border-bottom-left-radius: 40% 100%;
+}
+.wind1:after,
+.wind2:after,
+.wind3:after,
+.wind4:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  width: 65px;
+  height: 40px;
+}
+.wind1 {
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  background: #f39c12;
+}
+.wind1:after {
+  background-image: radial-gradient(circle at 0px 0px, rgba(241, 196, 15, 0) 40px, #f1c40f 41px);
+}
+.wind2 {
+  left: 63px;
+  top: -28px;
+  transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  background: #e74c3c;
+}
+.wind2:after {
+  background-image: radial-gradient(circle at 0px 0px, rgba(255, 4, 4, 0) 40px, #dd3333 41px);
+}
+.wind3 {
+  left: 92px;
+  top: 35px;
+  transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  background: #27ae60;
+}
+.wind3:after {
+  background-image: radial-gradient(circle at 0px 0px, rgba(241, 196, 15, 0) 40px, #2ecc71 41px);
+}
+.wind4 {
+  left: 29px;
+  top: 63px;
+  transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  background: #2980b9;
+}
+.wind4:after {
+  background-image: radial-gradient(circle at 0px 0px, rgba(52, 152, 219, 0) 40px, #3498db 41px);
+}
+@keyframes rotates {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes rotates {
+  form {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes rotates {
+  form {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@-o-keyframes rotates {
+  form {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(-360deg);
+  }
+}
+/*====================================================
+  Custom
+ ====================================================*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(font/OpenSans-400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(font/Roboto-100.woff) format('woff');
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+body {
+  overflow: hidden;
+}
+h1 {
+  font-size: 250%;
+  padding: 140px;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+.selected {
+  color: black;
+  text-decoration: underline;
+}
+/*====================================================
+  Header
+ ====================================================*/
+#header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: -60px;
+}
+#header #nav {
+  width: 510px;
+  float: right;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+#header #nav ul {
+  display: block;
+  margin: 0 auto;
+}
+#header #nav ul li {
+  margin-top: 6px;
+  float: left;
+  padding-left: 36px;
+}
+#header #nav ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+#header #nav ul li a:active {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+#header #nav ul li a:hover {
+  color: red;
+}
+/*====================================================
+  Header
+ ====================================================*/
+#section-wrap {
+  height: 100%;
+  z-index: 0;
+}
+#section-wrap section {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#section-wrap section#start {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section-wrap section#start .fade li {
+  display: none;
+}
+#section-wrap section#start:after {
+  background: url(img/pattern.png);
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+}
+#section-wrap section#skill {
+  background: #27ae60;
+}
+#section-wrap section#project {
+  background: #2980b9;
+}
+#section-wrap section#hobby {
+  background: #2c3e50;
+}
+#section-wrap section#contact {
+  background: #937cbf;
+}
