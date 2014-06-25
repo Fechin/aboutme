@@ -12,22 +12,25 @@ aboutme
 
 目录结构：
 
-├── font
-│   ├── OpenSans-400.woff
-│   └── Roboto-100.woff
-├── img
-│   ├── bg.jpg
-│   └── pattern.png
-├── index.html
-├── js
-│   ├── fechin.js
-│   └── jquery-1.11.1.min.js
-├── less
-│   ├── animations.less
-│   ├── custom.less
-│   ├── loading.less
-│   ├── reset.less
-│   └── var.less
-├── LICENSE
-├── README.md
-└── style.css
+
+
+
+├── font<br>
+│   ├── OpenSans-400.woff<br>
+│   └── Roboto-100.woff<br>
+├── img<br>
+│   ├── bg.jpg<br>
+│   └── pattern.png<br>
+├── index.html<br>
+├── js<br>
+│   ├── fechin.js<br>
+│   └── jquery-1.11.1.min.js<br>
+├── less<br>
+│   ├── animations.less<br>
+│   ├── custom.less<br>
+│   ├── loading.less<br>
+│   ├── reset.less<br>
+│   └── var.less<br>
+├── LICENSE<br>
+├── README.md<br>
+└── style.css<br>
