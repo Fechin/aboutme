@@ -5,9 +5,9 @@ aboutme
 
 
 
-日志：
-1、jQuery动画实现鼠标滚动单页
-2、添加首页文本渐显
+日志：<br>
+1、jQuery动画实现鼠标滚动单页<br>
+2、添加首页文本渐显<br><br>
 
 
 目录结构：
@@ -16,21 +16,21 @@ aboutme
 
 
 ├── font<br>
-│   ├── OpenSans-400.woff<br>
-│   └── Roboto-100.woff<br>
+    ├── OpenSans-400.woff<br>
+    └── Roboto-100.woff<br>
 ├── img<br>
-│   ├── bg.jpg<br>
-│   └── pattern.png<br>
-├── index.html<br>
+    ├── bg.jpg<br>
+    └── pattern.png<br>
 ├── js<br>
-│   ├── fechin.js<br>
-│   └── jquery-1.11.1.min.js<br>
+    ├── fechin.js<br>
+    └── jquery-1.11.1.min.js<br>
 ├── less<br>
-│   ├── animations.less<br>
-│   ├── custom.less<br>
-│   ├── loading.less<br>
-│   ├── reset.less<br>
-│   └── var.less<br>
+    ├── animations.less<br>
+    ├── custom.less<br>
+    ├── loading.less<br>
+    ├── reset.less<br>
+    └── var.less<br>
 ├── LICENSE<br>
 ├── README.md<br>
+├── index.html<br>
 └── style.css<br>
